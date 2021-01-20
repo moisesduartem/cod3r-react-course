@@ -34,3 +34,47 @@ export default function Student(props) {
 
 <Student name={'Moisés'} age={19} />
 ```
+
+2.4. React Fragment
+
+- A React component MUST be covered with just ONE element. Otherwise, React will throw a error.
+
+WRONG:
+```
+function MyComponent()
+{
+    return (
+        <h1>My Title</h1>
+        <div>My Text</div>
+        <small>Copyright</small>
+    );
+}
+```
+
+RIGHT:
+```
+function MyComponent()
+{
+    return (
+        <div>
+            <h1>My Title</h1>
+            <div>My Text</div>
+            <small>Copyright</small>
+        </div>
+    );
+}
+```
+
+- If you want avoid create randomic divs for each component (even if it's not the best solution for you problem), React provides the React Fragment (`<> or <Fragment>`), which create a invisible capsule for you component content.
+
+Example:
+```
+function MyComponent()
+{
+    return (
+        <>
+            // Content ...
+        </>
+    );
+}
+```
