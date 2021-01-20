@@ -1,8 +1,17 @@
 import React from 'react'
+import { Switch, Route, BrowserRouter } from 'react-router-dom';
+
+import About from '../../views/About';
+import Home from '../../views/Home';
 
 function Content() {
     return (
-        <h1>Content</h1>
+        <BrowserRouter>
+            <Switch>
+                <Route exact path="/" component={Home} />
+                <Route exact path="/about" component={About} />
+            </Switch>
+        </BrowserRouter>
     )
 }
 
