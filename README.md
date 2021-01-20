@@ -78,3 +78,22 @@ function MyComponent()
     );
 }
 ```
+
+2.5. Lists & repetition
+
+```
+export default function StudentList() {
+
+    return (
+        <ul>
+            {students.map((student, index) => {
+                return <li key={student.id}>
+                    {student.id} {student.name} {student.age}
+                </li>
+            })}
+        </ul>
+    );
+}
+```
+
+Use the list as `<StudentList />`.

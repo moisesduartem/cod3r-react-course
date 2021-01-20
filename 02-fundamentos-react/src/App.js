@@ -1,9 +1,10 @@
 import RandomicNumber from './components/RandomicNumber';
+import StudentList from './components/StudentList';
 
 function App() {
   return (
     <div className="App">
-      <RandomicNumber min={1} max={5} />
+      <StudentList />
     </div>
   );
 }
