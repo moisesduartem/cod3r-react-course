@@ -1,0 +1,15 @@
+export default [
+    { id: 1, name: 'Bermuda', price: 19.90 },
+    { id: 2, name: 'Bermuda', price: 19.90 },
+    { id: 3, name: 'Bermuda', price: 19.90 },
+    { id: 4, name: 'Bermuda', price: 19.90 },
+    { id: 5, name: 'Bermuda', price: 19.90 },
+    { id: 6, name: 'Blusa', price: 15.20 },
+    { id: 7, name: 'Blusa', price: 15.20 },
+    { id: 8, name: 'Blusa', price: 15.20 },
+    { id: 9, name: 'Blusa', price: 15.20 },
+    { id: 10, name: 'Pão Árabe', price: 8.80 },
+    { id: 11, name: 'Pão Árabe', price: 8.80 },
+    { id: 12, name: 'Pão Árabe', price: 8.80 },
+    { id: 13, name: 'Pão Árabe', price: 8.80 },
+];

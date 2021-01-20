@@ -1,10 +1,11 @@
 import RandomicNumber from './components/RandomicNumber';
-import StudentList from './components/StudentList';
+import ProductTable from './components/ProductTable';
 
 function App() {
   return (
     <div className="App">
-      <StudentList />
+      <h1>Products</h1>
+      <ProductTable />
     </div>
   );
 }
