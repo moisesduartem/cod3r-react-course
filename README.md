@@ -97,3 +97,14 @@ export default function StudentList() {
 ```
 
 Use the list as `<StudentList />`.
+
+# 05 - React Hooks
+
+5.1. useState - State Management
+
+```
+const initialValue = 0;
+const [myState, setMyState] = useState(initialValue);
+
+setMyState(myState + 1);
+```
