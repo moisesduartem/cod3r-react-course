@@ -17,7 +17,7 @@ function UserList() {
                         return (
                             <tr key={index}>
                                 <td>{id}</td>
-                                <td>{name}</td>
+                                <td><a href={`/users/${id}`}>{name}</a></td>
                                 <td>{job}</td>
                             </tr>
                         );
