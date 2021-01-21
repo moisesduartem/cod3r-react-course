@@ -5,15 +5,17 @@ function UserList() {
     return (
         <table>
             <thead>
-                <th>ID</th>
-                <th>Name</th>
-                <th>Job</th>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Job</th>
+                </tr>
             </thead>
             <tbody>
                 {
                     users.map(({ id, name, job }, index) => {
                         return (
-                            <tr>
+                            <tr key={index}>
                                 <td>{id}</td>
                                 <td>{name}</td>
                                 <td>{job}</td>
